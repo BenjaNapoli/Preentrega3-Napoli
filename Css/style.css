@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'oswald';
+    src: url(../Assets/static/Oswald-Light.ttf);
+}
+
+@font-face {
+    font-family: 'prosto';
+    src: url(../Assets/ProstoOne-Regular.ttf);
+}
+
+h1{
+    font-family: 'oswald'
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+a{
+    text-decoration: none;
+}
+
+p{
+    font-family: 'ubuntu', sans-serif;
+    background-color: lavenderblush;
+    padding: 25px;
+    border-radius: 0px;
+    border: 2px solid black;
+}
+
+article{
+    text-align: center;
+
+}
+
+main{
+    background-color: #C8F2EF  ;
+    padding-top: 70px;
+}
+
+header{
+      background-color: #C8F2EF ;
+    text-align: center;
+}
+
+head{
+    background-color: #C8F2EF ;
+}
+
+footer{
+    background-color: #C8F2EF ;
+}
+
+.nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color:#C8F2EF;
+    top: 0;
+    position: fixed;
+    padding: auto;
+    font-family: 'prosto';
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    margin-right: auto;
+    position: fixed;
+    padding-left: 100px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #000000;
+    font-size: 24px;
+    padding: 15px;
+}
+
+/*logo*/
+
+.logo {
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+    padding: 0px 15px 0px 0px;
+    width: 118px;
+    height: auto;
+    margin-right: auto;
+    position: sticky;
+    
+}
+
+/*todo el hero*/
+
+.hero {
+    display: flex;
+    background-color: #000;
+    width: 100%;
+  }
+  
+  .hero-img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .hero-content h2,
+  .hero-content p {
+    color: black;
+    text-align: center;
+  }
+  
+  .hero-content {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-content a {
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid white;
+    color: white;
+    font-size: 24px;
+  }
+
+.parallax-text h1 {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.parallax-text p {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.row {
+    display: flex;
+}
+
+.product {
+    text-align: center;
+    padding: 50px;
+}
+
+.product-img {
+    height: 400px;
+    width: 400px;
+}
+
+h2 {
+    margin-top: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000; 
+}
+
+.div{
+    padding: 5px 0px 5px 0px;
+}
+
+input{
+    height: 20px;
+    font-family: 'prosto';
+    border-style: groove;
+}
+
+label{
+    font-family: 'prosto';
+}
+
+textarea{
+    height: 100px;
+    border-style: groove;
+    font-family: 'prosto';
+}
+
+.historia{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.h6{
+    text-align: center;
+}
+
+iframe{
+    height:400px;
+    width: 645px;
+}
