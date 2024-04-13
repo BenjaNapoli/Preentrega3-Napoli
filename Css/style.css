@@ -56,6 +56,8 @@ footer {
     background-color: #C8F2EF;
 }
 
+/*nav*/
+
 .nav {
 
     display: flex;
@@ -70,6 +72,11 @@ footer {
     font-family: 'prosto';
 }
 
+.nav-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .nav-list {
     list-style: none;
     display: flex;
