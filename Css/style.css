@@ -269,9 +269,13 @@ iframe {
 
 /*sistema responsive*/
 @media  screen and ( max-width: 480px) {
+
 .product-img{ display: none;}
 
 h2 a{ display: inline;}
 
-
+.mapa-cnt{
+    width: 100%;
+    overflow: hidden;
+}
 }
