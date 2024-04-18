@@ -176,7 +176,8 @@ footer p{
 }
 
 .product-row {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
 }
 
 .product {
