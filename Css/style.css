@@ -266,15 +266,30 @@ iframe {
     background-color: beige;
 }
 
-.mapa {
+.mapa-cnt {
     padding-bottom: 0px;
     height: 450px;
+    width: 100%;
 }
 
 
+.images-div img {
+    width: 50%;
+}
+iframe {
+    width: 50%;
+}
 /*sistema responsive*/
-@media screen and (max-width: 480px) {
 
+@media screen and (max-width: 1050px) {
+    img{
+        display: none;
+    }
+
+    body{
+        height: 100%;
+    }
+    
     .product-img {
         display: none;
     }
@@ -287,4 +302,5 @@ iframe {
         width: 100%;
         overflow: hidden;
     }
+
 }
