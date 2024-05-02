@@ -1,0 +1,15 @@
+//base//base
+@import "base/_fonts.scss";
+@import "base/_vars.scss";
+@import "base/_utilities.scss";
+@import "base/_general.scss";
+
+//components
+@import "components/_navbar.scss";
+@import "components/_footer.scss";
+
+//layouts
+@import "layouts/_maravillas.scss";
+@import "layouts/_lahistoriadelmundo.scss";
+@import "layouts/_contact.scss";
+@import "layouts/_mediaqueries.scss";

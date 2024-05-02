@@ -1,0 +1,22 @@
+@media screen and (max-width: 1050px) {
+    img {
+      display: none;
+    }
+  
+    body {
+      height: 100%;
+    }
+  
+    .product-img {
+      display: none;
+    }
+  
+    h2 a {
+      display: inline;
+    }
+  
+    .mapa-cnt {
+      width: 100%;
+      overflow: hidden;
+    }
+}

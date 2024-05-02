@@ -1,0 +1,28 @@
+/*nav*/
+.navbar-brand {
+    text-align: center;
+  }
+  
+  .container-fluid {
+    /* background-color: #C8F2EF; */
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 50px;
+    font-family: "prosto";
+  }
+  
+  .nav-item {
+    background-color: #c8f2ef;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #000000;
+    font-size: 24px;
+    padding: 15px;
+  }
+  
+  .nav-link:hover {
+    color: dodgerblue;
+  }
+  
