@@ -155,16 +155,22 @@ textarea {
     width: 100%;
     overflow: hidden;
   }
-  .images-div img {
+  .images-div {
+    img{
   display: none;
   }
-  .images-div p {
+  }
+  .images-div  {
+    p{
     display: flex;
+    }
   }
 }
 @media only screen and (max-width: 600px) {
-  .images-div img {
+  .images-div {
+    img{
     display: none;
+    }
   }
   .video {
     width: 100%;
