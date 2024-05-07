@@ -1,51 +1,50 @@
 input {
-    height: 20px;
-    font-family: "prosto";
-    border-style: groove;
-  }
-  
-  label {
-    font-family: "prosto";
-  }
-  
-  textarea {
-    height: 100px;
-    border-style: groove;
-    font-family: "prosto";
-    resize: none;
-  }
+  height: 20px;
+  font-family: "prosto";
+  border-style: groove;
+}
+
+label {
+  font-family: "prosto";
+}
+
+textarea {
+  height: 100px;
+  border-style: groove;
+  font-family: "prosto";
+  resize: none;
+}
 
 
-  .contactanos {
-    background-color: #eeee;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  
-  .contactanos input {
-    padding: 15px;
-  }
-  
-  .contactanos-btn {
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    gap: 10px;
-    background-color: #eeee;
-  }
-  
-  .contactanos-btn button {
-    padding: 10px;
-    outline: none;
-    background-color: beige;
-  }
-  
-  .mapa-cnt {
-    padding-bottom: 0px;
-    height: 450px;
-    width: 100%;
-  }
+.contactanos {
+  background-color: #eeee;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 
-  
+.contactanos input {
+  padding: 15px;
+}
+
+.contactanos-btn {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  background-color: #eeee;
+}
+
+.contactanos-btn button {
+  padding: 10px;
+  outline: none;
+  background-color: beige;
+}
+
+.mapa-cnt {
+  padding-bottom: 0px;
+  height: 450px;
+  width: 100%;
+}
+
