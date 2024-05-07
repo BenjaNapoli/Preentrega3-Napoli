@@ -50,6 +50,10 @@ img {
 }
 
 /*nav*/
+.nav {
+  background-color: #c8f2ef;
+}
+
 .navbar-brand {
   text-align: center;
 }
@@ -88,8 +92,24 @@ img {
   width: 50%;
 }
 
+.images-div img {
+  text-align: center;
+  width: 50%;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  text-align: center;
+}
+
+.mapa {
+  width: 100%;
+}
+
 iframe {
-  height: 100%;
+  height: 600px;
   width: 100%;
 }
 
@@ -184,55 +204,67 @@ textarea {
   background-color: #000;
   width: 100%;
 }
-.hero .hero-img {
+
+.hero-img {
   width: 100%;
   height: 100%;
+  padding: 0;
+  margin: 0;
 }
-.hero .hero-content h2,
-.hero .hero-content p {
+
+.hero-content h2, .hero-content p {
   color: black;
   text-align: center;
 }
-.hero .hero-content {
-  padding: 30px;
+
+.hero-content {
+  padding: 0;
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 0px;
   justify-content: center;
   align-items: center;
 }
-.hero .hero-content a {
+
+.hero-content a {
   text-decoration: none;
   padding: 10px;
   border: 1px solid white;
   color: white;
   font-size: 24px;
 }
-.hero .parallax-text h1 {
+
+.parallax-text h1 {
   text-align: center;
   font-size: 3em;
   margin-bottom: 0.5em;
 }
-.hero .parallax-text p {
+
+.parallax-text p {
   font-size: 1.5em;
   margin: 0;
 }
-.hero .lugares-h2 {
+
+.lugares-h2 {
   text-align: center;
 }
-.hero .gallery {
+
+.gallery {
   display: grid;
 }
-.hero .product-row {
+
+.product-row {
   display: grid;
   grid-template-columns: auto auto;
   justify-content: center;
 }
-.hero .product {
+
+.product {
   text-align: center;
   padding: 50px;
 }
-.hero .product-img {
+
+.product-img {
   height: 400px;
   width: 400px;
 }
