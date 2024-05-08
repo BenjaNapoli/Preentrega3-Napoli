@@ -1,17 +1,17 @@
 //base
-@import "base/_fonts.scss";
-@import "base/_vars.scss";
-@import "base/_utilities.scss";
-@import "base/_general.scss";
+@import "base/fonts.scss";
+@import "base/vars.scss";
+@import "base/utilities.scss";
+@import "base/general.scss";
 
 //components
-@import "components/_navbar.scss";
-@import "components/_footer.scss";
+@import "components/navbar.scss";
+@import "components/footer.scss";
 
 //layouts
-@import "layouts/_maravillas.scss";
-@import "layouts/_imagenes.scss";
-@import "layouts/_lahistoriadelmundo.scss";
-@import "layouts/_contact.scss";
-@import "layouts/_mediaqueries.scss";
-@import "layouts/_index.scss"
+@import "layouts/maravillas.scss";
+@import "layouts/imagenes.scss";
+@import "layouts/lahistoriadelmundo.scss";
+@import "layouts/contact.scss";
+@import "layouts/mediaqueries.scss";
+@import "layouts/index.scss"

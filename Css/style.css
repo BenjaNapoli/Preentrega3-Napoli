@@ -170,7 +170,9 @@ textarea {
     height: 100%;
   }
   .product-img {
-    display: none;
+    height: 100px;
+    width: 100%;
+    display: grid;
   }
   h2 a {
     display: inline;
@@ -189,8 +191,15 @@ textarea {
   .images-div p {
     display: flex;
   }
+  .gallery {
+    display: grid;
+  }
 }
 @media only screen and (max-width: 600px) {
+  .product-img {
+    width: 100%;
+    display: grid;
+  }
   .images-div img {
     display: none;
   }
@@ -204,20 +213,7 @@ textarea {
   background-color: #000;
   width: 100%;
 }
-
-.hero-img {
-  width: 100%;
-  height: 100%;
-  padding: 0;
-  margin: 0;
-}
-
-.hero-content h2, .hero-content p {
-  color: black;
-  text-align: center;
-}
-
-.hero-content {
+.hero .hero-content {
   padding: 0;
   display: flex;
   flex-direction: column;
@@ -225,22 +221,29 @@ textarea {
   justify-content: center;
   align-items: center;
 }
-
-.hero-content a {
+.hero .hero-content .hero-content h2, .hero .hero-content .hero-content p {
+  color: black;
+  text-align: center;
+}
+.hero .hero-content .hero-content a {
   text-decoration: none;
   padding: 10px;
   border: 1px solid white;
   color: white;
   font-size: 24px;
 }
-
-.parallax-text h1 {
+.hero .hero-content .hero-img {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.hero .hero-content .parallax-text h1 {
   text-align: center;
   font-size: 3em;
   margin-bottom: 0.5em;
 }
-
-.parallax-text p {
+.hero .hero-content .parallax-text p {
   font-size: 1.5em;
   margin: 0;
 }
