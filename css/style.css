@@ -30,7 +30,7 @@ p {
 }
 
 body {
-  background-color: #c8f2ef;
+  background-color: lightblue;
   padding-top: 70px;
 }
 
@@ -51,7 +51,7 @@ img {
 
 /*nav*/
 .nav {
-  background-color: #c8f2ef;
+  background-color: lightblue;
 }
 
 .navbar-brand {
@@ -82,7 +82,7 @@ img {
 }
 
 footer p {
-  background-color: #c8f2ef;
+  background-color: lightblue;
   border: 0;
 }
 
@@ -209,9 +209,19 @@ textarea {
   }
 }
 .hero {
-  display: flex;
-  background-color: #000;
   width: 100%;
+}
+.hero .hero-content h2,
+.hero .hero-content p {
+  color: black;
+  text-align: center;
+}
+.hero .hero-content a {
+  text-decoration: none;
+  padding: 10px;
+  border: 1px solid white;
+  color: white;
+  font-size: 24px;
 }
 .hero .hero-content {
   padding: 0;
@@ -221,20 +231,9 @@ textarea {
   justify-content: center;
   align-items: center;
 }
-.hero .hero-content .hero-content h2, .hero .hero-content .hero-content p {
-  color: black;
-  text-align: center;
-}
-.hero .hero-content .hero-content a {
-  text-decoration: none;
-  padding: 10px;
-  border: 1px solid white;
-  color: white;
-  font-size: 24px;
-}
-.hero .hero-content .hero-img {
+.hero .hero-content .hero-img img {
   width: 100%;
-  height: 100%;
+  height: auto;
   padding: 0;
   margin: 0;
 }
@@ -247,27 +246,22 @@ textarea {
   font-size: 1.5em;
   margin: 0;
 }
-
-.lugares-h2 {
+.hero .lugares-h2 {
   text-align: center;
 }
-
-.gallery {
+.hero .gallery {
   display: grid;
 }
-
-.product-row {
+.hero .gallery .product-row {
   display: grid;
   grid-template-columns: auto auto;
   justify-content: center;
 }
-
-.product {
+.hero .gallery .product-row .product {
   text-align: center;
   padding: 50px;
 }
-
-.product-img {
+.hero .gallery .product-row .product .product-img {
   height: 400px;
   width: 400px;
 }

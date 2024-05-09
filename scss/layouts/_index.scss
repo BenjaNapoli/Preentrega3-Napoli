@@ -1,75 +1,78 @@
 .hero {
-  display: flex;
-  background-color: #000;
+
   width: 100%;
 
-    .hero-content {
-      
-      .hero-content h2, .hero-content p {
-        color: black;
-        text-align: center;
-      }
-
-      padding: 0;
-      display: flex;
-      flex-direction: column;
-      gap: 0px;
-      justify-content: center;
-      align-items: center;
-
-      .hero-content a {
-        text-decoration: none;
-        padding: 10px;
-        border: 1px solid white;
-        color: white;
-        font-size: 24px;
-      }
-
-      .hero-img {
-        width: 100%;
-        height: 100%;
-        padding: 0;
-        margin: 0;
-      }
-
-      .parallax-text h1 {
-        text-align: center;
-        font-size: 3em;
-        margin-bottom: 0.5em;
-      }
-      
-      .parallax-text p {
-        font-size: 1.5em;
-        margin: 0;
-      }
-    }
-    
+  .hero-content h2,
+  .hero-content p {
+    color: black;
+    text-align: center;
   }
 
-.lugares-h2 {
+  .hero-content a {
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid white;
+    color: white;
+    font-size: 24px;
+  }
+
+  .hero-content {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    justify-content: center;
+    align-items: center;
+
+    .hero-img img {
+      width: 100%;
+      height: auto;
+      padding: 0;
+      margin: 0;
+    }
+
+    .parallax-text h1 {
+      text-align: center;
+      font-size: 3em;
+      margin-bottom: 0.5em;
+    }
+
+    .parallax-text p {
+      font-size: 1.5em;
+      margin: 0;
+    }
+  }
+
+  .lugares-h2 {
+    text-align: center;
+  }
+
+  .gallery {
+    display: grid;
+
+    .product-row {
+      display: grid;
+      grid-template-columns: auto auto;
+      justify-content: center;
+
+      .product {
+        text-align: center;
+        padding: 50px;
+
+        .product-img {
+          height: 400px;
+          width: 400px;
+        } 
+      }
+    }
+  }
+
+
+
+
+
+
+  }
+  img {
   text-align: center;
-}
-
-.gallery {
-  display: grid;
-}
-
-.product-row {
-  display: grid;
-  grid-template-columns: auto auto;
-  justify-content: center;
-}
-
-.product {
-  text-align: center;
-  padding: 50px;
-}
-
-.product-img {
-  height: 400px;
-  width: 400px;
-}
-
-img{
-  text-align: center;
-}
+  }
